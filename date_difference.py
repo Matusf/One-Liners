@@ -1,0 +1,1 @@
+print('Difference [days]: {}'.format(abs((__import__('datetime').date(*[int(i) for i in input('<year> <month> <day>: ').split()]) - __import__('datetime').date(*[int(i) for i in input('<year> <month> <day>: ').split()])).days)))
