@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+'''
+Snippet that remove excesive whitespace from a given string
+
+Input:
+    string: text to remove excesive whitespace from
+
+Expanded form:
+print(
+    ' '.join(__import__('sys').argv[1].split()
+            if len(__import__('sys').argv) > 1
+            else ''))
+'''
+print(' '.join(__import__('sys').argv[1].split() if len(__import__('sys').argv) > 1 else ''))
